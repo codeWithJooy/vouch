@@ -57,7 +57,7 @@ const App = () => {
      <Container fluid className="position-relative">
        <Header />
        <Row className="d-flex justify-content-left">
-           <Col md={6} lg={6} className="d-flex justify-content-center align-items-center" 
+           <Col md={6} lg={5} className="d-flex justify-content-center align-items-center" 
                        style={{minHeight:"calc(100vh - 80px)"}}>
              <Card style={{width:"60%",minHeight:"60px",border:"none"}} 
                    className="login_card">
@@ -107,7 +107,7 @@ const App = () => {
 
            </Col>
 
-          <Col xs={7} md={6} lg={6} className="login_image" >
+          <Col xs={7} md={6} lg={7} className="login_image" >
             <img src="docs/img/image.png" style={{width:"100%",height:"100%"}}/>
           </Col>
        </Row>
