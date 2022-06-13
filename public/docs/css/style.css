@@ -1,0 +1,58 @@
+@font-face {
+    font-family: inter_regular;
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: inter-bold;
+    src: url(../fonts/Inter/static/Inter-Bold.ttf);
+  }
+
+  *{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 15px;
+    font-family:inter_regular!important;
+    
+  }
+  .clck_me{
+    background-color: green;
+    border:1px solid white!important;
+  }
+  .header_button{
+    width:150px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size: 12px;
+    font-weight:bold;
+    font-family: inter_bold;
+  }
+  .trial{
+    background-color: #023047;
+    color:white;
+  }
+  .login{
+   background-color: #fb8500; 
+   color:white;
+  }
+  @media only screen and (max-width:768px) {
+    .header_button{
+       display: none!important;
+      }
+    .login_card{
+      width:90%!important;
+    }  
+    .login_image{
+      display: none!important;
+     }
+    }
+   
+   @media only screen and (min-width:769px) and (max-width: 992px){
+     .header_button{
+       font-size: 10px;
+       width:250px;
+     }
+   }
