@@ -58,7 +58,7 @@ const App = () => {
        <Header />
        <Row className="d-flex justify-content-left">
            <Col md={6} lg={5} className="d-flex justify-content-center align-items-center" 
-                       style={{minHeight:"calc(100vh - 80px)"}}>
+                       style={{minHeight:"calc(100vh - 60px)"}}>
              <Card style={{width:"60%",minHeight:"60px",border:"none"}} 
                    className="login_card">
                <Card.Title className="mb-1" 
